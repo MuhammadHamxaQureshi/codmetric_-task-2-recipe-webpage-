@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Collection</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: #6c5ce7;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .recipe-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .recipe-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .recipe-card h2 {
+      color: #6c5ce7;
+      margin-bottom: 10px;
+    }
+    .recipe-card ul {
+      padding-left: 20px;
+      margin-bottom: 10px;
+    }
+    .recipe-card ol {
+      padding-left: 20px;
+    }
+    footer {
+      background: #2d3436;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍴 My Recipe Collection</h1>
+    <p>Simple and delicious recipes</p>
+  </header>
+
+  <main>
+    <!-- Recipe 1 -->
+    <div class="recipe-card">
+      <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/chicken-biryani-recipe.jpg" alt="Chicken Biryani">
+      <h2>Chicken Biryani</h2>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>500g chicken</li>
+        <li>2 cups basmati rice</li>
+        <li>2 onions (fried)</li>
+        <li>1 cup yogurt</li>
+        <li>2 tbsp biryani masala</li>
+      </ul>
+      <h3>Steps</h3>
+      <ol>
+        <li>Cook chicken with spices.</li>
+        <li>Boil rice 70%.</li>
+        <li>Layer chicken and rice, steam 20 min.</li>
+      </ol>
+    </div>
+
+    <!-- Recipe 2 -->
+    <div class="recipe-card">
+      <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/08/chicken-karahi.jpg" alt="Chicken Karahi">
+      <h2>Chicken Karahi</h2>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>500g chicken</li>
+        <li>3 tomatoes</li>
+        <li>2 onions</li>
+        <li>Green chilies</li>
+        <li>Karahi masala</li>
+      </ul>
+      <h3>Steps</h3>
+      <ol>
+        <li>Fry onions in oil.</li>
+        <li>Add tomatoes, chilies & spices.</li>
+        <li>Add chicken and cook until tender.</li>
+      </ol>
+    </div>
+
+    <!-- Recipe 3 -->
+    <div class="recipe-card">
+      <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/04/chicken-korma.jpg" alt="Chicken Korma">
+      <h2>Chicken Korma</h2>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>500g chicken</li>
+        <li>1 cup yogurt</li>
+        <li>Fried onions</li>
+        <li>Korma masala</li>
+      </ul>
+      <h3>Steps</h3>
+      <ol>
+        <li>Fry onions & blend with yogurt.</li>
+        <li>Add chicken and masala paste.</li>
+        <li>Cook until gravy thickens.</li>
+      </ol>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 My Recipe Webpage | Made with ❤️ by Hamza</p>
+  </footer>
+</body>
+</html>
